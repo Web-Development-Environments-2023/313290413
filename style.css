@@ -67,7 +67,7 @@ main {
 
 .about-text{
     text-align: left;
-    font-size: 30px;}
+    font-size: 25px;}
 
 footer {
 	background-color: #333;
@@ -142,7 +142,7 @@ body{
 .Gallery{
     text-align: center;
     font-weight: normal;
-    font-size: 35px;
+    font-size: 75px;
 }
 
 /* input{
@@ -209,7 +209,7 @@ body{
   .fb-like {
     display: flex;
     justify-content: center;
-    margin-left: 43%;
+    margin-left: 45%;
   }
   
 
@@ -235,6 +235,14 @@ body{
 /* Q&A */
 .question{
     text-align: center;
+    font-size: 30px;
+}
+
+.question li {
+    font-size: 25px;
+}
+.ans2 {
+    font-size: 25px;
 }
 
 /* contact me */
