@@ -1,4 +1,4 @@
-#First Class Assignment - 313290413
+### First Class Assignment - 313290413
 
 I decided to create a website in memory of my grandfather, who was a hero to all of us in the family.
 In the website you can find the following content:
@@ -10,13 +10,13 @@ In the website you can find the following content:
 - Q&A - Answers for the questions in the worksheet.
 - Contact Me - Webform to send me an email.
 
-#Syntax
+### Syntax
 This website was built using the following code-languages:
 - HTML5
 - CSS
 - JavaScript
 
-#Link to the website - 
+### Link to the website - 
 https://web-development-environments-2023.github.io/313290413/
 
 assignment1 - ErezKimmel - 313290413
