@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Saba Mike</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0" nonce="vStDsXKm"></script>
+	<header>
+		<h1>Welcome to Saba Mike's website</h1>
+	</header>
+
+    <nav class="sticky-nav">
+        <div class="logo">
+            <a href="MyWebsite.html"><img src="MK.png"></a>
+        </div>
+        <ul>
+            <!-- <li class="home"><a href="MyWebsite.html">Home</a></li> -->
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#my-photos">My Photos</a></li>
+            <li><a href="#my-playlist">My Playlist</a></li>
+            <li><a href="#like">Like</a></li>
+            <li><a href="#qr-code">QR Code</a></li>
+            <li><a href="#q-a">Q&A</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+    </nav>
+    
+
+<main>
+              <!-- About Me -->
+<section id="about-me" class="section"><br>
+<h2 class = "Gallery">About Me</h2>
+  <p class="about-text">
+    Michael Kitay, my grandfather, was born in Czychew, Poland on February 20, 1926. According to his many stories, he had a wonderful
+
+    childhood growing up with family, friends and many farm animals.<br>
+
+    When World War II broke out in September 1939, all Jewish family life changed for the worse. A new reality reached the small town of
+
+    Czychew. Most of the neighborhood fled for their lives and Michael found himself, along with his older sister, hiding in the woods.<br>
+
+    Survival was the new name of the game. Winters were extremely cold, searching for food fed to farm animals and hiding from the enemy
+
+    was almost impossible. Most important for Michael, was to stay alive and take care of his sister.
+
+    Once the war ended, my grandfather started a new chapter in his life in the United States of America.
+
+    He was drafted to the U.S. Army and served for two years. Later, he became a locksmith in New York City where he resided for over 60 years
+
+    together with his Israeli wife and three children.<br>
+
+    <b>My grandfather enjoyed life, never forgetting his roots and his past. He lived a wonderful life that he spent between New York,
+
+    Florida and Israel. He was also a true familyman and is missed by all of us.</b>
+  </p>
+</div>
+</section>
+
+<!-- My Photos -->
+
+<section id="my-photos" class="section"><br>
+<div class="head">
+    <h2 class = "Gallery">My Photo Gallery</h2>
+</div>
+<div class="container">
+  <!-- <input type="radio" name="Photos" id="check1" checked> 
+  <input type="radio" name="Photos" id="check2">
+  <input type="radio" name="Photos" id="check3">
+  <div class="top_comment">
+    <label for="check1"> All Photos</label>
+    <label for="check2"> Family Photos </label>
+    <label for="check3"> Me</label>
+</div> -->
+  <div class="full-img" id="fullImgBox">
+    <img src = "family1.jpg" id="fullImg">
+    <span onclick="closeFullImg()">X</span>
+  </div>
+  <div class="photo_gallery">
+      <img src="family1.jpg" onclick="openFullImg(this.src)">
+      <img src="family2.jpg" onclick="openFullImg(this.src)">
+      <img src="family3.jpg" onclick="openFullImg(this.src)">
+      <img src="family4.jpg" onclick="openFullImg(this.src)">
+      <img src="family5.jpg" onclick="openFullImg(this.src)">
+      <img src="family6.jpg" onclick="openFullImg(this.src)">
+      <img src="family7.jpg" onclick="openFullImg(this.src)">
+      <img src="family8.jpg" onclick="openFullImg(this.src)">
+      <img src="family9.jpg" onclick="openFullImg(this.src)">
+      <img src="family10.jpg" onclick="openFullImg(this.src)">
+      <img src="family11.jpg" onclick="openFullImg(this.src)">
+      <img src="family12.jpg" onclick="openFullImg(this.src)">
+    </div>
+  <script src="myScript.js"></script>
+</div>
+</section>
+
+<!-- My Playlist -->
+
+<section id="my-playlist" class="section"><br>
+<h2 class = "Gallery">My Playlist</h2>
+  <div class="video-grid">
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/80od8TLZzDw" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aNkLTAd68KY" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PPlDAJgAQsQ" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZWWc7vBnSP0" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+</section>
+
+<!-- Like -->
+
+<section id="like" class="section"><br>
+<h2 class = "Gallery">Like The Page? </h2><br>
+<div class="fb-like" data-href="https://web-development-environments-2023.github.io/313290413/" data-width="" data-layout="" data-action="" data-size="" data-share="false"></div>
+</section>
+
+<!-- QR Code -->
+
+<section id="qr-code" class="section"><br>
+<h2 class = "Gallery">QR Code</h2>
+<div class="QR">
+  <img src="QR.jpg">
+</div>
+</section>
+
+<!-- Q&A -->
+
+<section id="q-a" class="section"><br>
+<h2 class = "Gallery">Q&A</h2>
+<h2 class="question"><u><b>Question 1 - 3 Differences between web1 web2 and web3 </b></u> </h2>
+<ol type="I">
+  <li><u>User Interaction and Content Creation:</u> Web 1.0 was primarily a one-way communication system, with static HTML pages that provided information to users, while users were passive consumers of content. Web 2.0 introduced a more interactive and user-centered experience, with the rise of social media platforms and user-generated content. Users could now create and share content, comment, and participate in online discussions. Web 3.0 aims to take this interactivity to the next level by enabling seamless interactions between users and machines.</li>
+  <li><u>Data Management and Artificial Intelligence:</u> Web 1.0 was limited in its ability to collect and manage data, whereas Web 2.0 brought about the concept of "big data" and the use of analytics to make data-driven decisions. With Web 3.0, there is a greater emphasis on machine learning and artificial intelligence (AI), which enables machines to learn from and make decisions based on vast amounts of data. Web 3.0 is envisioned as a more intelligent and intuitive web, where machines can make sense of the data and provide personalized, proactive assistance to users.</li>
+  <li><u>Decentralization and Security:</u> Web 1.0 and Web 2.0 were centralized systems, with data and control largely in the hands of a few large corporations. Web 3.0, on the other hand, is being built on decentralized technologies such as blockchain, which distributes power and control among a network of users. This also makes it more secure, as it is less vulnerable to hacks and data breaches. Web 3.0 is envisioned as a more trustworthy and secure web, where users have greater control over their data and privacy.</li>
+</ol><br><br>
+<h2 class="question"><u><b>Question 2 - Use Case Example - What reasults would I get from searching "drugs side effects" on each web </b></u> </h2>
+<p class="ans2">
+  <b>In Web 1.0</b>, your search results would have consisted mainly of static web pages that provided information on the topic. These pages would have been text-based, with few multimedia features, and there would have been limited interaction between users and the content. You would have had to manually navigate between pages to find the information you were looking for.<br>
+  <b>In Web 2.0</b>, your search results would have been more varied, including user-generated content such as blog posts, forum discussions, and social media interactions. You would have been able to read about others' experiences with drugs and their side effects, share your own stories, and engage in discussions with others. Additionally, the platform might have suggested targeted ads based on your search query and your online behavior.<br>
+  <b>In Web 3.0</b>, your search experience could be even more personalized and interactive. You might use voice commands or natural language processing to ask a virtual assistant or chatbot about the side effects of a particular drug. The system might use machine learning to analyze various sources of data, such as medical records, clinical trials, and patient reviews, to provide a comprehensive and accurate response. Additionally, the system might suggest alternative treatments or lifestyle changes based on your health history and preferences.
+</p>
+
+</section>
+
+
+<!-- Contact me -->
+<section id="contact-me" class="section"><br>
+<h2 class = "Gallery">Contact Me</h2>
+
+<form id="my-form" action="mailto:erekim@post.bgu.ac.il?subject=E-mail from Website&body=" method="POST" enctype="text/plain">
+  <input type="text" id="name" placeholder="Your Name" required autocomplete="off">
+  <input type="email" id="email" placeholder="Your E-mail Address" required autocomplete="off">           
+  <textarea id="Message" name="Message" rows="4" placeholder="Your Message"></textarea>
+  <div id="emoji-container">
+      <span class="emoji" role="button" aria-label="smiley face">&#x1F600;</span>
+      <span class="emoji" role="button" aria-label="heart">&#x2764;&#xFE0F;</span>
+      <span class="emoji" role="button" aria-label="thumbs up">&#x1F44D;</span>
+      <span class="emoji" role="button" aria-label="fire">&#x1F525;</span>
+      <span class="emoji" role="button" aria-label="thinking face">&#x1F914;</span>
+      <span class="emoji" role="button" aria-label="clapping hands">&#x1F44F;</span>
+    </div>   
+  <button type="submit">Send</button>
+
+</form>
+
+<script>
+  const messageTextarea = document.getElementById('Message');
+  const emojiContainer = document.getElementById('emoji-container');
+  const emojis = emojiContainer.querySelectorAll('.emoji');
+
+  emojis.forEach((emoji) => {
+    emoji.addEventListener('click', () => {
+      messageTextarea.value += emoji.innerHTML;
+    });
+  });
+</script>
+</section>
+
+</main>
+
+	<footer>
+		<p>Copyright © Saba Mike 2023</p>
+	</footer>
+</body>
+</html>
